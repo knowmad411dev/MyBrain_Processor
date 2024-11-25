@@ -1,0 +1,11 @@
+# Core Dependencies
+chromadb==0.3.21       # Chroma database for vector storage and retrieval
+aiofiles==24.1.0       # Asynchronous file handling
+requests==2.32.3       # HTTP requests library
+python-dotenv==1.0.0   # Load environment variables from a .env file
+pyyaml==6.0            # Parse and handle YAML metadata
+PyGithub==1.58.1       # GitHub API client for commit log tracking
+sentence-transformers==2.2.2  # Pretrained embedding models for NLP
+
+# PyTorch Note: Install PyTorch manually in Colab to match the provided GPU:
+# !pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118

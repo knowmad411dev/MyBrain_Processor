@@ -1,0 +1,21 @@
+# Core Dependencies
+chromadb==0.3.21       # Chroma database for vector storage and retrieval
+aiofiles==24.1.0       # Asynchronous file handling
+
+# HTTP and Utilities
+requests==2.32.3       # HTTP requests library
+python-dotenv==1.0.0   # Load environment variables from a .env file
+
+# YAML Processing
+pyyaml==6.0            # Parse and handle YAML metadata
+
+# GitHub API
+PyGithub==1.58.1       # GitHub API client for commit log tracking
+
+# PyTorch and Related (Compatible with SageMaker Studio Lab)
+torch==1.8.0           # PyTorch
+torchvision==0.9.0     # PyTorch vision library
+torchaudio==0.8.0      # PyTorch audio library
+
+# Sentence Transformers
+sentence-transformers==2.2.2  # Pretrained embedding models for natural language processing
